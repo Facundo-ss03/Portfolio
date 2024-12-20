@@ -1,0 +1,47 @@
+﻿
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+footer {
+    padding: 0;
+    bottom: 0;
+}
+
+.contact-me {
+    height: 25em;
+    background-color: #8923DD;
+}
+
+#nav-bar {
+    background-color: #8923DD;
+    color: #ebe5f3;
+}
+
+#form1 {
+    padding-bottom: 25em;
+}
+
+@media (max-width: 770px){
+    #form1 {
+        padding-bottom: 50em;
+    }
+}
+
+.col-md-6 {
+    padding: 0;
+}
